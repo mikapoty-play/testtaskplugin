@@ -1,0 +1,14 @@
+name: TestTaskPlugin
+version: 1.0.0
+main: com.mikapoty.plugin.Plugin
+description: Плагин для тестового задания
+author: Mikapoty
+website: https://papermc.io
+api-version: '26.3'
+libraries:
+  - com.google.guava:guava:30.1.1-jre
+  - com.google.code.gson:gson:2.8.6
+commands:
+  cigar:
+    description: Выдать себе сигару
+    usage: /cigar
